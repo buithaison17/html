@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="fullName">Họ tên:</label></td>
+                <td><input type="text" name="Họ tên" id="fullName"></td>
+            </tr>
+            <tr>
+                <td><label for="birthday">Ngày sinh:</label></td>
+                <td><input type="date" name="Ngày sinh" id="birthday"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="Giới tính" id="gender" value="Nam">Nam
+                    <input type="radio" name="Giới tính" id="gender" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phoneNumber">Số điện thoại</label></td>
+                <td><input type="number" name="Số điện thoại" id="phoneNumber"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="Email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="nameOfCompany">Tên của công ty:</label></td>
+                <td><input type="text" name="Tên của công ty" id="nameOfCompany"></td>
+            </tr>
+            <tr>
+                <td><label for="roleInCompany">Vai trò trong công ty:</label></td>
+                <td>
+                    <select name="Vai trò trong công ty" id="roleInCompany">
+                        <option value="Giám đốc điều hành (CEO)">Giám đốc điều hành (CEO)</option>
+                        <option value="Chủ tịch">Chủ tịch</option>
+                        <option value="Nhân viên">Nhân viên</option>
+                    </select>
+                </td>
+                <tr>
+                    <td><label for="companySize">Quy mô công ty:</label></td>
+                    <td>
+                        <select name="Quy mô công ty" id="companySize">
+                            <option value="Lớn">Lớn</option>
+                            <option value="Nhỏ">Nhỏ</option>
+                            <option value="Trung bình">Trung bình</option>
+                        </select>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

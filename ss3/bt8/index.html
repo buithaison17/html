@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="fullName">Họ và tên:</label></td>
+                <td><input type="text" name="Họ và tên" id="fullName"></td>
+            </tr>
+            <tr>
+                <td><label for="birthday">Ngày sinh:</label></td>
+                <td><input type="date" name="Ngày sinh" id="birthday"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="Giới tính" id="gender" value="Nam">Nam
+                    <input type="radio" name="Giới tính" id="gender" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="indentiticationNumber">Số căn cước công dân:</label></td>
+                <td><input type="number" name="Số căn cước cong dân" id="indentiticationNumber"></td>
+            </tr>
+            <tr>
+                <td><label for="placeOfIssue">Nơi cấp:</label></td>
+                <td><input type="text" name="Nơi cấp" id="placeOfIssue"></td>
+            </tr>
+            <tr>
+                <td><label for="phoneNumber">Số điện thoại:</label></td>
+                <td><input type="number" name="Số điện thoại" id="phoneNumber"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="Email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="permanentAddres">Địa chỉ thường trú</label></td>
+                <td><textarea name="Địa chỉ thường trú" id="permanentAddres"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="temporaryAdress">Địa chỉ tạm trú</label></td>
+                <td><textarea name="Địa chỉ tạm trú" id="temporaryAdress"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="typeIndentificationCard">Loại căn cước công dân:</label></td>
+                <td>
+                    <input type="radio" name="Loại căn cước công dân" id="typeIndentificationCard" value="Căn cươc công dân mới">Căn cước công dân mới
+                    <input type="radio" name="Loại căn cước công dân" id="typeIndentificationCard" value="Căn cước công dân cũ">Căn cước công dân cũ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nation">Dân tộc:</label></td>
+                <td><input type="text" name="Dân tộc" id="nation"></td>
+            </tr>
+            <tr>
+                <td><label for="religion">Tôn giáo:</label></td>
+                <td><input type="text" name="Tôn giáo" id="religion"></td>
+            </tr>
+            <tr>
+                <td><label for="nationality">Quốc tịch:</label></td>
+                <td><input type="text" name="Quốc tịch" id="nationality"></td>
+            </tr>
+            <tr>
+                <td><label for="fullNameOfParents">Họ tên cha/mẹ:</label></td>
+                <td><input type="text" name="Họ tên cha/mẹ" id="fullNameOfParents"></td>
+            </tr>
+            <tr>
+                <td><label for="indentiticationNumberParents">Số căn cước công dân của cha/mẹ</label></td>
+                <td><input type="number" name="Số căn cước công dân của cha/mẹ" id="indentiticationNumberParents"></td>
+            </tr>
+            <tr>
+                <td><label for="city">Tỉnh/Thành phố:</label></td>
+                <td>
+                    <select name="Tỉnh/Thành phố" id="city">
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Hải Phòng">Hải Phòng</option>
+                        <option value="Thái Bình">Thái Bình</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
