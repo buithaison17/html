@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container .parapraph{
+    margin-top: 20px;
+}
+
+.container .img{
+    margin-top: 20px;
+}
+
+.container .end{
+    margin-top: 20px;
+}
