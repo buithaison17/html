@@ -1,0 +1,12 @@
+h1{
+    color: rgb(41, 135, 241);
+}
+
+.container .codeBlock{
+    background-color: rgb(255, 244, 230);
+    border-left: 8px solid rgb(255, 255, 148);
+}
+
+.container .codeBlock .content{
+    margin-left: 8px;
+}

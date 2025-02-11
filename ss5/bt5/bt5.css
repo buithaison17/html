@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .paragraph{
+    text-decoration: double;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.container .paragraph .writer{
+    color: rgb(43, 42, 42);
+}
+.container .paragraph .time{
+    color: rgb(121, 121, 121);
+}
+.container .content{
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+}

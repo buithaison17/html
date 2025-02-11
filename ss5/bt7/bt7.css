@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > :not(.codeBlock){
+    padding: 10px;
+    line-height: 30px;
+}
+
+.container > :nth-child(3){
+    border: 2px solid #15ff00;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.container .codeBlock{
+    margin-top: 15px;
+    background-color: rgb(219, 219, 219);
+    padding: 8px;
+}
+
+.container .textPink{
+    color: palevioletred;
+    background-color: rgb(235, 235, 235);
+}
+
+.container .codeBlock .example{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container .codeBlock .code{
+    border-left: 5px solid green;
+    background-color: white;
+}
+
+.container .codeBlock .code .section{
+    margin-left: 10px;
+
+}
+
+.container .codeBlock .code .section .darkRedColor{
+    color: rgb(82, 0, 0);
+}
+
+.container .codeBlock .code .section .redColor{
+    color: red;
+}
+
+.container .codeBlock .code .section .blueColor{
+    color: blue;
+}
+
+.container .codeBlock .button{
+    margin-top: 10px;
+    background-color: #15ff00;
+    height: 30px;
+    width: 120px;
+    border-radius: 2px;
+    border: 2px solid #15ff00;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container .codeBlock .button:hover{
+    background-color: #54ff45;
+}

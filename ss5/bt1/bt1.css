@@ -1,0 +1,16 @@
+h1{
+    background-color: pink;
+    color: blue;
+    text-align: center;
+}
+#item li:nth-child(1){
+    color: red;
+}
+#item li:nth-child(2){
+    color: green;
+    font-size: 30px;
+}
+#item li:nth-child(3){
+    color: blue;
+    font-size: 50px;
+}
