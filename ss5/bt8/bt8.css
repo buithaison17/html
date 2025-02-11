@@ -1,0 +1,25 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.table{
+    width: 100%;
+    border-radius: 8px;
+}
+th, td{
+    padding: 15px;
+    text-align: center;
+}
+th{
+    background-color: rgba(0, 153, 255, 0.87);
+    color: white;
+    height: 20px;
+}
+tr:hover{
+    background-color: rgb(209, 209, 209);
+}
+h1{
+    margin-bottom: 20px;
+}
