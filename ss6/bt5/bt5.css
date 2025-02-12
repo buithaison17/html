@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .header{
+    background-color: #4CAF50;
+    padding: 10px 15px;
+}
+.container .header .menu a{
+    text-decoration: none;
+    color: white;
+}
+.container .body{
+    margin-top: 100px;
+    line-height: 40px;
+    text-align: center;
+    padding: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.container .body .button{
+    background-color: #4CAF50;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    padding: 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .body .button:hover{
+    background-color: #55c758;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container .footer .feature span{
+    margin-top: 50px;
+    background-color: #DDDDDD;
+    padding: 20px 180px;
+    width: 5000px;
+    border-radius: 3px;
+}
+.container .footer .feature span:hover{
+    background-color: #bebebe;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container .footer .feature{
+    text-align: center;
+}
+.container .footer .contact{
+    margin-top: 40px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.container .footer .contact:hover{
+    background-color: #242424;
+    text-decoration: underline;
+    cursor: pointer;
+}
