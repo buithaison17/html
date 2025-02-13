@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #EAEAEA;
+    color: #231751;
+}
+
+.container .header h2{
+    margin-left: 10px;
+}
+
+.container .header div{
+    margin-top: 10px;
+}
+
+.container .body{
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.container .footer .button{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container .footer .button .button1{
+    background-color: #BC2229;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.container .footer .button .button2{
+    border: 1px solid #C1BCD1;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
