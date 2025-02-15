@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    padding: 20px;
+}
+
+.container .caption{
+    color: rgb(46, 46, 46);
+    border-bottom: 3px solid rgb(255, 98, 98);
+    width: fit-content;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.container .item1 .border,
+.container .item2 .border,
+.container .item3 .border,
+.container .item4 .border{
+    margin-left: 15px;
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 15px;
+    transform: rotate(45deg);
+}
+
+.container .item1 .border .diamond{
+    color: rgb(252, 123, 123);
+    font-size: 50px;
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.container .item1{
+    width: 430px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.container .item1 .title,
+.container .item2 .title,
+.container .item3 .title,
+.container .item4 .title{
+    position: absolute;
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.container .item1 .paragraph,
+.container .item2 .paragraph,
+.container .item3 .paragraph,
+.container .item4 .paragraph{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: gray;
+}
+
+
+.container .item2 .border .rocket{
+    font-size: 50px;
+    color: rgb(252, 123, 123);
+    transform: rotate(-30deg);
+}
+
+.container .item2{
+    width: 430px;
+    position: relative;
+}
+
+.container .item3{
+    width: 430px;
+    position: relative;
+    margin-top: 80px;
+    transform: translate(880px, -395px);
+}
+
+.container .item3 .border .plane{
+    font-size: 50px;
+    color: rgb(252, 123, 123);
+    transform: rotate(-30deg);
+}
+
+.container .item4 .border .wifi{
+    font-size: 50px;
+    color: rgb(252, 123, 123);
+    transform: rotate(-45deg);
+}
+
+.container .item4{
+    width: 430px;
+    position: relative;
+    margin-top: 80px;
+    transform: translate(880px, -330px);
+}
+
+
+
+
+
+
