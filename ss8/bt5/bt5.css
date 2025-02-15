@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding: 60px 20px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: yellow; */
+}
+
+.container .title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #828282;
+}
+
+.container .paragraph{
+    text-align: center;
+    color: rgb(173, 172, 172);
+}
+
+.container .button{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container .button .download,
+.container .button .learn-more{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.container .button .download{
+    background-color: #4696E5;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.container .button .download:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .button .learn-more{
+    border-radius: 10px;
+    border: 2px solid rgb(202, 202, 202);
+    font-weight: bold;
+    color: rgb(167, 167, 167);
+}
+
+.container .button .learn-more:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .icon{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 40px;
+    color: #828282;
+    margin-bottom: 50px;
+}
+
+.container .icon:hover{
+    cursor: pointer;
+}
+
+.container .credit{
+    text-align: center;
+    color: #828282;
+}
+
+
+
+
+

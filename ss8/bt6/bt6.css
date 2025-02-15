@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    left: 34%;
+    top: 50%;
+}
+
+.container .search{
+    height: 30px;
+    width: 500px;
+    padding: 20px 30px;
+    border: 2px solid rgb(196, 196, 196);
+    border-radius: 40px;
+}
+
+.container .form-group{
+    position: relative;
+    font-size: 20px;
+}
+
+.container .icon .search-outline{
+    position: absolute;
+    left: 10px;
+    top: 30%;
+    bottom: 50%;
+}
+
+.container .icon .mic{
+    position: absolute;
+    right: 45px;
+    top: 30%;
+    bottom: 50%;
+}
+
+.container .icon .camera{
+    position: absolute;
+    right: 15px ;
+    top: 30%;
+    bottom: 50%;
+}
