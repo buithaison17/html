@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 70%;
+        gap: 20px;
+}
+
+.container header{
+    background-color: #009BE5;
+    flex: 0.4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container header .header1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+}
+
+.container header .header1 .title{
+    text-decoration: none;
+    color: white;
+}
+
+.container header .header2{
+    display: flex;
+    color: white;
+}
+
+.container header .header2 .nav{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.container header .header2 .nav .web-setup{
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.container header .menu{
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    color: white;
+}
+
+.container main{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    padding: 20px;
+}
+
+.container main .main-top{
+    display: flex;
+    gap: 20vh;
+    background-color: #F5F5F5;
+    padding: 25px;
+    justify-content: center;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    flex: 0.2;
+}
+
+.container main .main-top .left,
+.container main .main-top .right{
+    display: flex;
+    gap: 20px;
+}
+
+.container main .main-top .right .add-user{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #009BE5;
+    color: white;
+}
+
+.container main .main-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex: 0.6;
+    border-radius: 10px;
+}
+
