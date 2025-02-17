@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.container header{
+    flex: 0.3;
+    padding: 15px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+
+.container header div ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container div a{
+    text-decoration: none;
+    color: white;
+}
+
+.container main{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .home,
+.container main .work,
+.container main .about{
+    text-align: center;
+    padding: 15px;
+    line-height: 40px;
+}
+
+.container main .home{
+    flex: 0.8;
+    background-color: #F4F4F4;
+}
+
+.container main .work{
+    flex: 1.2;
+}
+
+.container main .work .project{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.container main .work .project .project1{
+    padding: 25px;
+    width: 15vh;
+    height: 15vh;
+    background-color: #CCCCCC;
+}
+
+.container main .work .name-project{
+    display: flex;
+    justify-content: center;
+    gap: 92px;
+}
+
+.container main .about{
+    flex: 0.5;
+}
+
+.container main .home .button{
+    background-color: #333333;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    width: 20vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.container main .home .button p{
+    transform: translate(15px);
+}
+
+.container footer{
+    flex: 0.2;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
