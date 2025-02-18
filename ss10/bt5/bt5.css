@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 120vh;
+    gap: 20px;
+    padding: 20px;
+    background-color: #BABABA;
+}
+
+.container main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1.5;
+}
+
+.container main .line{
+    border: 1px solid white;
+}
+
+.container main .content{
+    display: flex;
+    gap: 20px;
+}
+
+.container main .content .main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container main .content .main-content .infor{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container main .content .main-content .infor .year{
+    background-color: #142850;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.container footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center ;
+}
+
+.container footer .logo{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+

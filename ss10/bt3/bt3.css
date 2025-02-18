@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    gap: 20px;
+}
+
+.container header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container header .heading-3{
+    background-image: url(https://cdn.pixabay.com/photo/2014/10/14/20/24/football-488714_1280.jpg);
+    flex: 2;
+    display: flex;
+    justify-content: right;
+    background-position: center;
+    padding: 10px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container header .heading-3 p{
+    display: block;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.container header{
+    flex: 1.5;
+}
+
+.container header .logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container header .logo .avatar{
+    background-color: black;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.container header .logo .name{
+    color: #554B4B;
+}
+
+.container main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

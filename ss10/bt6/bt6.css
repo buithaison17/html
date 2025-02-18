@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    background-image: url(./anh1.webp);
+    height: 80%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background .overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.container .background .top{
+    color: white;
+    display: flex;
+    margin: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+
+}
+
+.container .background .bottom{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    gap: 10px;
+    width: 80vh;
+}
+
+.button{
+    height: 10vh;
+    background-color: #F1F3F7;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+
+.button .previous{
+    padding: 20px;
+    background-color: #BAB8B8;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button .next{
+    padding: 20px;
+    background-color: #262626;
+    border-radius: 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.button .page{
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.button .page p:nth-child(1){
+    background-color: black;
+    /* padding: 5px; */
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

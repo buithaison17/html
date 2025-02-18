@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.container .fooball,
+.container .basketball,
+.container .carsports,
+.container .table-tenis{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .heading-2{
+    background: #000000;
+    background: repeating-linear-gradient(to bottom, #000000 9%, #FFFFFF 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 25px;
+    text-align: center;
+}
+
+.container .background-text{
+    background-color: #EBEEF3;
+}
+
+.container .img{
+    background-image: url(https://vff.org.vn/uploads/images/fifa-women-2015.jpg);
+    background-position: center;
+    padding: 120px;
+    border-radius: 10px;
+}
+
+h3{
+    padding: 10px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    gap: 10px;
+    padding: 20px;
+}
+
+.container header{
+    flex: 0.1;
+    display: flex;
+}
+
+.container header .club-ranking{
+    transform: translate(610px);
+}
+
+.container main{
+    flex: 1.2;
+    display: flex;
+    gap: 20px;
+}
+
+.container main .topic1{
+    flex: 0.6;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+}
+
+main .topic1 .text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0.2;
+}
+
+main .topic1 .text .title{
+    font-size: 20px;
+}
+
+main .topic1 img{
+    flex:0.8;
+    width: 100%;
+}
+
+.container main .topic2{
+    flex: 0.6;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEEF3;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container main .topic2 .content{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+main .topic2 .content .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+
+main .topic2 .content .text .time{
+    font-size: 10px;
+    color: gray;
+}
+
+main .topic2 .content .text .title{
+    font-size: 17px;
+}
+
+.container main .topic2 .button{
+    flex: 0.3;
+    background-color: #B8C2CE;
+    display: flex;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    left: 35%;
+    right: 35%;
+}
+
+main .topic2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.container main .topic3{
+    flex: 1;
+    background-color: #EBEEF3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+table .stt,
+table .logo{
+    width: 20px;
+    padding: 5px;
+}
+
+td, th{
+    width: 100px;
+    text-align: center;
+}
+
+table .name-club{
+    width: 200px;
+    text-align: left;
+}
+
+.container main .topic3 tbody img{
+    width: 20px;
+    height: 30px;
+}
