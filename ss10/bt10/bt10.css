@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.container .img-small{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.container .img-small img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.container .img-big{
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.container .img-big img{
+    width: 90%;
+}
+
+.container main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container main .rate{
+    display: flex;
+    gap: 10px;
+}
+
+.container main .rate .star{
+    color: yellow;
+}
+
+.container main .rate .line{
+    border-right: 2px solid gray;
+}
+
+.container main .size{
+    display: flex;
+    gap: 20px;
+}
+
+.container main .size .L{
+    color: white;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container main .size .XL,
+.container main .size .XS{
+    color: black;
+    background-color: #F9F1E7;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container main .color{
+    display: flex;
+    gap: 20px;
+}
+
+.container main .color .purple{
+    padding: 15px;
+    background: #816DFA;
+    border-radius: 50px;
+}
+
+.container main .color .black{
+    padding: 15px;
+    background: black;
+    border-radius: 50px;
+}
+
+.container main .color .brown{
+    padding: 15px;
+    background: #B88E2F;
+    border-radius: 50px;
+}
+
+.container main .buy{
+    display: flex;
+    gap: 20px;
+}
+
+.container main .buy .quantity{
+    display: flex;
+    gap: 40px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container main .buy .add-to-cart{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container main .buy .compare{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container main .line{
+    border-bottom: 2px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container main .credit{
+    display: flex;
+    gap: 30px;
+}
+
+.container main .credit .left,
+.container main .credit .right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container main .credit .right .icon{
+    display: flex;
+    gap: 10px;
+}
