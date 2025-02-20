@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card-group{
+    display: flex;
+    gap: 20px;
+}
+
+.container .card-group .card{
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+
+.container .card-group .card-body:hover{
+    background-color: #FFC107;
+}
