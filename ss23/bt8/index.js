@@ -9,7 +9,7 @@ if(Number.isInteger(n) && n > 0){
 
     let found = true;
 
-    if((arr[0] === 0 || arr[0] === 1) && arr[1] === 1){
+    if(n > 2){
         for(let i = 2; i < arr.length; i++){
             if(arr[i] !== arr[i-1] + arr[i-2]){
                 found = false;
