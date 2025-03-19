@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#username, #password{
+    width: 220px;
+}
+
+#btn-submit{
+    height: 20px;
+    width: 160px;
+}
