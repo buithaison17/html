@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 650px;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        gap: 30px;
+}
+
+.btn{
+    display: flex;
+    gap: 40px;
+}
+
+.progress{
+    background-color: #EDEDED;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.progress .progressCurrent{
+    background-color: rgb(162, 213, 174);
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.btn .button1, .btn .button2{
+    padding: 10px;
+    background-color: #7ABAFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn .button1:hover,
+.btn .button2:hover{
+    cursor: pointer;
+}
