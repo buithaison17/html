@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+}
+
+.container select{
+    width: 30%;
+    padding: 5px;
+}
+
+.container button{
+    padding: 5px;
+}
+
+.container .listCategory{
+    padding: 20px;
+    margin-right: 20px;
+}
