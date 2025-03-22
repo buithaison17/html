@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 25px;
+}
+
+.title{
+    color: #0066CC;
+}
+
+.search-group{
+    display: flex;
+    width: 50%;
+}
+
+.search-group .search{
+    width: 85%;
+    border: 1px solid #dadada;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+}
+
+.search-group .btnSearch{
+    width: 15%;
+    text-align: center;
+    padding: 8px 5px;
+    color: white;
+    background-color: #0066CC;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-group .btnSearch:hover{
+    cursor: pointer;
+    background-color: #0878e9;
+}
+
+.city-group{
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.city-group .cityWeather{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.city-group .cityWeather .icon{
+    font-size: 90px;
+}
+
+.city-group .cityWeather .temperature{
+    font-size: 60px;
+}
+
+.city-group .cityWeather .cityWeatherDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 20px;
+}
