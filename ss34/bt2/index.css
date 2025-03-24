@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: fit-content;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+#add-lesson{
+    display: flex;
+    gap: 10px;
+}
+
+#lession-group{
+    border-collapse: collapse;
+}
+
+#lession-group td{
+    text-align: center;
+    padding: 15px;
+}
+
+#lession-group tr{
+    border-bottom: 1px solid #dadada;
+}
+
+thead th{
+    padding: 10px;
+    background-color: #F4F4F4;
+    font-weight: 600;
+}

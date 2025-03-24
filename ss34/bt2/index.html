@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management</h1>
+        <form id="add-lesson">
+            <input type="text" id="name-lession" placeholder="Content" required>
+            <input type="date" id="date" required>
+            <select id="status" required>
+                <option value="">Choose status</option>
+                <option value="Pending">Peding</option>
+                <option value="Pending">Succesful</option>
+            </select>
+            <input type="text" id="username" placeholder="username" required>
+            <button type="submit">submit</button>
+        </form>
+        <table id="lession-group">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Content</th>
+                    <th>Due date</th>
+                    <th>Status</th>
+                    <th>Assigned to</th>
+                    <th colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
