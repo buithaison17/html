@@ -1,0 +1,17 @@
+.active{
+    background-color: rgba(0, 128, 0, 0.2) !important;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: rgb(22, 175, 22);
+}
+
+.inactive{
+    background-color: rgba(255, 0, 0, 0.2) !important;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: rgb(175, 22, 22); 
+}
