@@ -16,6 +16,7 @@ const backToSigninElement = document.querySelector("#back-to-signin");
 // Lấy các phần tử có ở trang chủ
 const homeElement = document.querySelector('#home');
 const btnLogoutElement = document.querySelector('#btn-logout');
+const titleElement = document.querySelector('#title');
 
 // Lưu các tài khoản đã đăng kí
 const accounts = JSON.parse(localStorage.getItem('accounts')) || [];
@@ -27,6 +28,8 @@ let rememberPassword = localStorage.getItem('rememberPassword') === 'true' ? tru
 
 // Kiểm tra nếu đã bấm ghi nhớ tôi
 if(rememberSignin){
+    console.log(rememberUsername);
+    
     loginSuccessful(rememberUsername);
 }
 
@@ -81,18 +84,23 @@ btnSigninElement.addEventListener('click', function(event){
             localStorage.setItem('rememberUsername', rememberUsername);
             localStorage.setItem('rememberPassword', rememberPassword);
         }
-        loginSuccessful(usernameSigninInputElement);
-        usernameSigninInputElement.value = '';
-        passwordSigninInputElement.value = '';
+        loginSuccessful(usernameSigninInputElement.value);
     }
+    usernameSigninInputElement.value = '';
+    passwordSigninInputElement.value = '';
 })
+
+console.log(titleElement.textContent);
 
 
 //Đăng nhập thành công
 function loginSuccessful(username){
+    console.log(username);
+    
     cardSigninElement.style.display = 'none';
     cardSignupElement.style.display = 'none';
     homeElement.style.display = 'block';
+    titleElement.textContent = `Xin chào, ${username}`
 }
 
 //Đăng xuất
